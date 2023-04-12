@@ -12,6 +12,9 @@ export default {
       },
       borderColor: {
         'input-border': 'rgba(0, 0, 0, 0.75)',
+      },
+      colors: {
+        'button-text': 'rgba(0, 0, 0, 0.75)',
       }
     },
   },
