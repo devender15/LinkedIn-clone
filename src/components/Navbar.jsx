@@ -4,43 +4,43 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="max-w-[1128px] px-4 md:px-0 m-auto py-6 flex items-center justify-between flex-nowrap md:flex-wrap md:gap-y-1">
+    <nav className="max-w-[1128px] px-4 md:px-0 m-auto py-4 flex items-center justify-between flex-nowrap md:flex-wrap md:gap-y-1">
       <div className="block cursor-pointer mr-auto">
         <icon
-          class="block text-[#0a66c2] w-[84px] h-[21px] md:w-[135px] md:h-[34px] order-1 lazy-loaded"
+          className="block text-[#0a66c2] w-[84px] h-[21px] md:w-[135px] md:h-[34px] order-1 lazy-loaded"
           data-test-id="nav-logo"
           aria-hidden="true"
           aria-busy="false"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 84 21"
             preserveAspectRatio="xMinYMin meet"
             version="1.1"
             focusable="false"
-            class="lazy-loaded"
+            className="lazy-loaded"
             aria-busy="false"
           >
             <g
-              class="inbug"
+              className="inbug"
               stroke="none"
-              stroke-width="1"
+              strokeWidth="1"
               fill="none"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             >
               <path
                 d="M19.479,0 L1.583,0 C0.727,0 0,0.677 0,1.511 L0,19.488 C0,20.323 0.477,21 1.333,21 L19.229,21 C20.086,21 21,20.323 21,19.488 L21,1.511 C21,0.677 20.336,0 19.479,0"
-                class="bug-text-color"
+                className="bug-text-color"
                 transform="translate(63.000000, 0.000000)"
               ></path>
               <path
                 d="M82.479,0 L64.583,0 C63.727,0 63,0.677 63,1.511 L63,19.488 C63,20.323 63.477,21 64.333,21 L82.229,21 C83.086,21 84,20.323 84,19.488 L84,1.511 C84,0.677 83.336,0 82.479,0 Z M71,8 L73.827,8 L73.827,9.441 L73.858,9.441 C74.289,8.664 75.562,7.875 77.136,7.875 C80.157,7.875 81,9.479 81,12.45 L81,18 L78,18 L78,12.997 C78,11.667 77.469,10.5 76.227,10.5 C74.719,10.5 74,11.521 74,13.197 L74,18 L71,18 L71,8 Z M66,18 L69,18 L69,8 L66,8 L66,18 Z M69.375,4.5 C69.375,5.536 68.536,6.375 67.5,6.375 C66.464,6.375 65.625,5.536 65.625,4.5 C65.625,3.464 66.464,2.625 67.5,2.625 C68.536,2.625 69.375,3.464 69.375,4.5 Z"
-                class="background"
+                className="background"
                 fill="currentColor"
               ></path>
             </g>
-            <g class="linkedin-text">
+            <g className="linkedin-text">
               <path
                 d="M60,18 L57.2,18 L57.2,16.809 L57.17,16.809 C56.547,17.531 55.465,18.125 53.631,18.125 C51.131,18.125 48.978,16.244 48.978,13.011 C48.978,9.931 51.1,7.875 53.725,7.875 C55.35,7.875 56.359,8.453 56.97,9.191 L57,9.191 L57,3 L60,3 L60,18 Z M54.479,10.125 C52.764,10.125 51.8,11.348 51.8,12.974 C51.8,14.601 52.764,15.875 54.479,15.875 C56.196,15.875 57.2,14.634 57.2,12.974 C57.2,11.268 56.196,10.125 54.479,10.125 L54.479,10.125 Z"
                 fill="currentColor"
@@ -101,7 +101,7 @@ export default function Navbar() {
         </li>
         <li className="flex flex-col justify-center items-center space-y-3 cursor-pointer">
           <icon
-            class="top-nav-link__icon flex h-3 w-6 flex-shrink-0 lazy-loaded"
+            className="top-nav-link__icon flex h-3 w-6 flex-shrink-0 lazy-loaded"
             aria-hidden="true"
             aria-busy="false"
           >
@@ -111,7 +111,7 @@ export default function Navbar() {
               height="20"
               fill="none"
               focusable="false"
-              class="lazy-loaded"
+              className="lazy-loaded"
               aria-busy="false"
             >
               <path
@@ -129,7 +129,7 @@ export default function Navbar() {
         </li>
         <li className="flex flex-col justify-center items-center space-y-3 cursor-pointer">
           <icon
-            class="top-nav-link__icon flex h-3 w-6 flex-shrink-0 lazy-loaded"
+            className="top-nav-link__icon flex h-3 w-6 flex-shrink-0 lazy-loaded"
             aria-hidden="true"
             aria-busy="false"
           >
@@ -139,32 +139,32 @@ export default function Navbar() {
               height="24"
               fill="none"
               focusable="false"
-              class="lazy-loaded"
+              className="lazy-loaded"
               aria-busy="false"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M23 3H1a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1ZM2 19h20V5H2v14Z"
                 fill="currentColor"
               ></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M4 9h6V7H4v2Zm0 4h6v-2H4v2Zm0 4h6v-2H4v2Zm-2 2h10V5H2v14Z"
                 fill="currentColor"
-                fill-opacity=".25"
+                fillOpacity=".25"
               ></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M14 9h6V7h-6v2Zm0 4h6v-2h-6v2Zm6 4h-6v-2h6v2Z"
                 fill="currentColor"
-                fill-opacity=".6"
+                fillOpacity=".6"
               ></path>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M10 7.534v8.933a.28.28 0 0 0 .439.23l6.433-4.436A.307.307 0 0 0 17 12a.305.305 0 0 0-.128-.26l-6.433-4.437a.28.28 0 0 0-.439.23Z"
                 fill="currentColor"
               ></path>
@@ -179,7 +179,7 @@ export default function Navbar() {
         </li>
         <li className="flex flex-col justify-center items-center space-y-3 cursor-pointer">
           <icon
-            class="top-nav-link__icon flex h-3 w-6 flex-shrink-0 lazy-loaded"
+            className="top-nav-link__icon flex h-3 w-6 flex-shrink-0 lazy-loaded"
             aria-hidden="true"
             aria-busy="false"
           >
@@ -189,7 +189,7 @@ export default function Navbar() {
               height="18"
               fill="none"
               focusable="false"
-              class="lazy-loaded"
+              className="lazy-loaded"
               aria-busy="false"
             >
               <path
